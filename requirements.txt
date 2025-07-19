@@ -1,6 +1,6 @@
-Flask==3.1.1
+tensorflow==2.16.0
+flask==3.1.1
 flask-cors==6.0.1
 gunicorn==23.0.0
-tensorflow==2.17.0 # Very stable with Python 3.10
-numpy==1.23.5  # Compatible with TF 2.7.0 and Python 3.10
-Pillow==9.0.1 # Compatible with TF 2.7.0 and Python 3.10
+numpy==1.23.5
+Pillow==9.0.1
