@@ -11,7 +11,7 @@ CORS(app)
 
 # Get the directory where app.py is located
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, 'model.keras') # Construct the full path to the model
+MODEL_PATH = os.path.join(BASE_DIR, 'model.h5') # Construct the full path to the model
 
 # Load the Keras model when the application starts
 try:
